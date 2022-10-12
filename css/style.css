@@ -1,0 +1,258 @@
+body{
+    font-family: "Roboto Thin";
+    margin: 0 auto;
+    padding: 0;
+}
+.clr{
+    clear: both;
+}
+.main{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+#header{
+    width: 100%;
+    height: 200px;
+}
+.logo{
+    width: 35%;
+    height: 200px;
+    float: left;
+}
+.logo img{
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 150px;
+    float: left;
+}
+.right-header{
+    width: 65%;
+    float: right;
+    height: 200px;
+}
+.right-header-top{
+    width: 100%;
+    height: 50px;
+}
+.right-header-top a{
+    text-decoration: none;
+    float: right;
+    padding-top: 15px;
+    padding-left: 20px;
+    color: #6b3a2c;
+}
+.right-header-top a:hover{
+    color: chocolate;
+}
+.right-header-mid{
+    width: 100%;
+    height: 80px;
+}
+.right-header-mid input{
+    float: right;
+    width: 300px;
+    height: 35px;
+    border-radius: 20px;
+    border: #6b3a2c solid 1px;
+    background-image: url("../imgs/search.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.right-header-mid span{
+    float: right;
+    padding-top: 10px;
+    font-size: 1.2em;
+    padding-right: 10px;
+}
+.menu{
+    width: 100%;
+    height: 70px;
+}
+.menu ul li{
+    display: inline-block;
+    width: 15%;
+    margin: 0.5%;
+    background-color: #6b3a2c;
+    padding: 10px 0px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.menu ul li:hover{
+    background-color: chocolate;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+#sidebar{
+    width: 20%;
+    float: left;
+}
+#sidebar p{
+    width: 98%;
+    color: white;
+    line-height: 40px;
+    background-color: #6b3a2c;
+    margin-top: 0;
+    padding-left: 2%;
+}
+#sidebar ul{
+    width: 100%;
+    margin-left: -20px;
+    margin-top: -15px;
+}
+#sidebar ul li{
+    line-height: 40px;
+    background-color: chocolate;
+    width: 100%;
+    list-style: none;
+    margin-left: -20px;
+    border-bottom: 1px dotted white;
+    cursor: pointer;
+}
+#sidebar ul li:hover{
+    background-color: wheat;
+}
+#sidebar ul li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
+}
+#sidebar ul li span{
+    float: right;
+    color: white;
+    padding-right: 5px;
+}
+#content{
+    width: 60%;
+    height: 500px;
+    float: left;
+}
+.treeview{
+    width: 100%;
+    padding: 5px;
+    color: #6b3a2c;
+}
+.treeview a{
+    text-decoration: none;
+    color: #6b3a2c;
+}
+.treeview a:hover{
+    color: chocolate;
+}
+h2{
+    font-size: 1em;
+    color: #6b3a2c;
+    padding-left: 5px;
+    margin-bottom: 30px;
+}
+#content p{
+    padding: 5px;
+    color: #6b3a2c;
+    text-align: center;
+    line-height: 20px;
+    margin-top: -20px;
+}
+.img-border{
+    width: 31%;
+    margin: 1%;
+    float: left;
+    border: 1px solid #6b3a2c;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.img-right{
+    width: 98%;
+    margin: 1%;
+    float: left;
+    margin-bottom: 20px;
+}
+.img-right img{
+    width: 80%;
+    margin-left: 10%;
+}
+.img-right h3{
+    text-align: center;
+    font-size: 1em;
+    color: #6b3a2c;
+}
+.img-border img{
+    width: 90%;
+    margin-left: 5%;
+}
+#right-content{
+    width: 20%;
+    float: right;
+}
+.img-border h3{
+    text-align: center;
+    font-size: 1em;
+    color: #6b3a2c;
+}
+#sale {
+    border-collapse: collapse;
+    width: 100%;
+    color: #6b3a2c;
+    font-size: 0.9em;
+    overflow: scroll;
+}
+#sale td, #sale th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#sale tr:nth-child(even){background-color: #f2f2f2;}
+
+#sale tr:hover {background-color: #ddd;}
+
+#sale th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #6b3a2c;
+    color: white;
+}
+.content-extra{
+    width: 48%;
+    margin: 1%;
+    float: left;
+    color: #6b3a2c;
+}
+.content-extra h3{
+    font-size: 1em;
+    color: #6b3a2c;
+    text-align: center;
+}
+.content-extra p{
+    font-size: 1em;
+    color: #6b3a2c;
+    text-align: left;
+    padding: 5px;
+}
+.formip{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.content-extra input{
+    width: 70%;
+    float: right;
+    height: 25px;
+    border: 1px solid #6b3a2c;
+}
+.btn{
+    background-color: #6b3a2c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#footer{
+    width: 100%;
+}
